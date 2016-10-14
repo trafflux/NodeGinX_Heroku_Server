@@ -1,0 +1,25 @@
+{
+  "name": "NodeGinX",
+  "version": "1.0.0",
+  "description": "Test Node app for NodeGinX deployment on Heroku",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/trafflux/NodeGinX_Heroku_Server"
+},
+  "keywords": [
+    "trashbag"
+  ],
+  "author": "Philip V.",
+  "license": "ISC"
+}
