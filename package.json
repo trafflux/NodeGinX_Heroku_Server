@@ -1,5 +1,5 @@
 {
-  "name": "NodeGinX - Node Docker App",
+  "name": "NodeGinX",
   "version": "1.0.0",
   "description": "Test Node app for NodeGinX deployment on Docker",
   "engines": {
