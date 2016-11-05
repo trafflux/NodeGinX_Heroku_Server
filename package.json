@@ -1,9 +1,9 @@
 {
-  "name": "NodeGinX",
+  "name": "NodeGinX - Node Docker App",
   "version": "1.0.0",
-  "description": "Test Node app for NodeGinX deployment on Heroku",
+  "description": "Test Node app for NodeGinX deployment on Docker",
   "engines": {
-    "node": "6.5.0"
+    "node": "6.9.0"
   },
   "main": "app.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/trafflux/NodeGinX_Heroku_Server"
+  "url": "https://github.com/trafflux/node_docker_app"
 },
   "keywords": [
     "trashbag"
