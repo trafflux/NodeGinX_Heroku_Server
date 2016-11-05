@@ -1,5 +1,5 @@
-# NodeGinX Heroku Server
-Experimental deployment test for Reverse Proxy Nginx + Node Server running on Heroku
+# NodeGinX Docker Demo App
+Experimental deployment test for Reverse Proxy Nginx + Node Server running on Docker
 
 
 #Requirements
@@ -10,20 +10,17 @@ Experimental deployment test for Reverse Proxy Nginx + Node Server running on He
 
 **Load necessary ENV vars based on Server resources, Node settings, and Nginx settings**
 
-**Create needed mnaully configured ENV vars in Heroku admin panel**
+**Create needed manually configured ENV vars in a config js file or bash script with prompts**
 
-**Configure or find necessary Buildpacks**
+**Create script to launch all needed containers (nginx & node & mongo[?])**
 
-**Create Procfile to launch all needed services/processes**
+**Configure SSL certificate with Nginx & bundle SSL in deployment**
 
-**Configure SSL certificate with Nginx & find how to bundle SSL in deployment**
-
-**Setup autobuild, CI, and hooks to Heroku server**
 |
 
 |
 
-**Create test environment in NodeJS (v:6.x) to confirm:**
+**Create test environment in NodeJS (v:6.9) to confirm:**
 
 --> MongoDB connection & proper conn string data set as ENV var
 
