@@ -1,6 +1,18 @@
 # NodeGinX Docker Demo App
 Experimental deployment test for Reverse Proxy Nginx + Node Server running on Docker
 
+#Docker 
+
+https://hub.docker.com/_/node/
+
+Image based on `6.9.1-slim` Nodejs version
+
+BUILD: `$ docker build -t node-dock-bld:0.9.4 . `
+
+RUN: `$ docker run -it --rm --name nodedockbld node-dock-bld:0.9.4 `
+
+NOTE: For quick and dirty creation of container from new Node ver, use `FROM: node:7-onbuild `
+
 
 #Requirements
 
